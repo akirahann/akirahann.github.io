@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>木木的空间站</title>
   
-  
+  <subtitle>Ich sey Alles</subtitle>
   <link href="http://akirahann.github.io/atom.xml" rel="self"/>
   
   <link href="http://akirahann.github.io/"/>
@@ -34,6 +34,31 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>选择理论</title>
+    <link href="http://akirahann.github.io/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/"/>
+    <id>http://akirahann.github.io/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/</id>
+    <published>2020-04-30T17:41:02.550Z</published>
+    <updated>2023-03-22T16:53:58.946Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;选择与欲望&quot;&gt;&lt;a href=&quot;#选择与欲望&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="哲学" scheme="http://akirahann.github.io/categories/%E5%93%B2%E5%AD%A6/"/>
+    
+    
+    <category term="思考" scheme="http://akirahann.github.io/tags/%E6%80%9D%E8%80%83/"/>
     
   </entry>
   
