@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>木木的空间站</title>
+  <title>木卫三空间站</title>
   
   <subtitle>Ich sey Alles</subtitle>
   <link href="http://akirahann.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://akirahann.github.io/</id>
   
   <author>
-    <name>木木</name>
+    <name>井垣木杉</name>
     
   </author>
   
