@@ -6,7 +6,7 @@
   <link href="http://akirahann.github.io/atom.xml" rel="self"/>
   
   <link href="http://akirahann.github.io/"/>
-  <updated>2023-03-22T17:48:55.719Z</updated>
+  <updated>2023-03-26T15:58:18.416Z</updated>
   <id>http://akirahann.github.io/</id>
   
   <author>
@@ -17,11 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MacOS系统在Quantumult使用下/VPN开启的状态下/Clash增强模式下使用ssh</title>
+    <link href="http://akirahann.github.io/2023/03/26/%E6%8A%80%E6%9C%AF/%E5%9C%A8VPN%E5%BC%80%E5%90%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ssh/"/>
+    <id>http://akirahann.github.io/2023/03/26/%E6%8A%80%E6%9C%AF/%E5%9C%A8VPN%E5%BC%80%E5%90%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ssh/</id>
+    <published>2023-03-26T14:50:42.037Z</published>
+    <updated>2023-03-26T15:58:18.416Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h3&gt;&lt;p&gt;最近因为需要在手机上清理掉开屏广告开始使用Quantumult X，发现在mac上使用Quantumult X改自定义的策略比使用ClashX Pro必须使用订阅策略要舒服的多，所以开始在mac上也使用Quantumult X。&lt;/p&gt;
+&lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h3&gt;&lt;p&gt;但是在Quantumult X开启的时候（即使是规则分流模式下），在终端里面使用git   push指令将本地的仓库合并到github上的时候会出现以下报错：&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta prompt_&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;language-bash&quot;&gt;git push -u origin main&lt;/span&gt;                 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;kex_exchange_identification: Connection closed by remote host&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Connection closed by 198.18.1.96 port 22 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;致命错误：无法读取远程仓库。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;请确认您有正确的访问权限并且仓库存在。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="http://akirahann.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="mac" scheme="http://akirahann.github.io/tags/mac/"/>
+    
+    <category term="VPN" scheme="http://akirahann.github.io/tags/VPN/"/>
+    
+    <category term="ssh" scheme="http://akirahann.github.io/tags/ssh/"/>
+    
+    <category term="Quantumult X" scheme="http://akirahann.github.io/tags/Quantumult-X/"/>
+    
+    <category term="shell" scheme="http://akirahann.github.io/tags/shell/"/>
+    
+    <category term="terminal" scheme="http://akirahann.github.io/tags/terminal/"/>
+    
+    <category term="github" scheme="http://akirahann.github.io/tags/github/"/>
+    
+    <category term="git" scheme="http://akirahann.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>选择理论</title>
     <link href="http://akirahann.github.io/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/"/>
     <id>http://akirahann.github.io/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/</id>
     <published>2020-04-30T17:41:02.550Z</published>
-    <updated>2023-03-22T17:48:55.719Z</updated>
+    <updated>2023-03-26T15:30:41.426Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;选择与欲望&quot;&gt;&lt;a href=&quot;#选择与欲望&quot; class=&quot;headerlink&quot; title=&quot;选择与欲望&quot;&gt;&lt;/a&gt;选择与欲望&lt;/h3&gt;&lt;ul&gt;

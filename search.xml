@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>MacOS系统在Quantumult使用下/VPN开启的状态下/Clash增强模式下使用ssh</title>
+    <url>/2023/03/26/%E6%8A%80%E6%9C%AF/%E5%9C%A8VPN%E5%BC%80%E5%90%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ssh/</url>
+    <content><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>最近因为需要在手机上清理掉开屏广告开始使用Quantumult X，发现在mac上使用Quantumult X改自定义的策略比使用ClashX Pro必须使用订阅策略要舒服的多，所以开始在mac上也使用Quantumult X。</p>
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>但是在Quantumult X开启的时候（即使是规则分流模式下），在终端里面使用git   push指令将本地的仓库合并到github上的时候会出现以下报错：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">git push -u origin main</span>                 </span><br><span class="line">kex_exchange_identification: Connection closed by remote host</span><br><span class="line">Connection closed by 198.18.1.96 port 22 </span><br><span class="line">致命错误：无法读取远程仓库。</span><br><span class="line"></span><br><span class="line">请确认您有正确的访问权限并且仓库存在。</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><p>在开启VPN连接后无法使用SSH连接到远程服务器，可能是因为VPN连接导致了网络路由的变化，VPN连接通常会将网络流量通过VPN服务器进行中转，这可能会导致mac的计算机路由表发生变化，使得SSH连接无法正确路由到远程服务器。在mac里可以使用以下指令查询路由表：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">netstat -i</span><br></pre></td></tr></table></figure>
+
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>先找到ssh的配置文件夹并切换成cwd：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">or</span></span><br><span class="line">cd /Users/YOURNAME/.ssh</span><br></pre></td></tr></table></figure>
+
+<p>如果有config文件就直接打开，如果没有就新建一个：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">touch config</span><br></pre></td></tr></table></figure>
+
+<p>用文本编辑器打开，在里面添加以下内容：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line"><span class="code">	HostName ssh.github.com</span></span><br><span class="line"><span class="code">	port 443</span></span><br></pre></td></tr></table></figure>
+
+<p>保存config文件。这样就可以把所有的ssh端口从22改到了443，通过443端口连接git存储库。可以用以下指令进行尝试，查看是否成功：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p>显示_You’ve successfully authenticated_ 即为成功。</p>
+<p>我还尝试了其他方法，包括单不限于使用route指令更改ip的路由表，直接在git remote指令中直接指定端口，使用https进行连接，均不成功。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>VPN</tag>
+        <tag>ssh</tag>
+        <tag>Quantumult X</tag>
+        <tag>shell</tag>
+        <tag>terminal</tag>
+        <tag>github</tag>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>选择理论</title>
     <url>/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/</url>
     <content><![CDATA[<h3 id="选择与欲望"><a href="#选择与欲望" class="headerlink" title="选择与欲望"></a>选择与欲望</h3><ul>
