@@ -6,7 +6,7 @@
   <link href="http://akirahann.github.io/atom.xml" rel="self"/>
   
   <link href="http://akirahann.github.io/"/>
-  <updated>2023-03-26T15:58:18.416Z</updated>
+  <updated>2023-03-29T12:44:18.599Z</updated>
   <id>http://akirahann.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://akirahann.github.io/2023/03/26/%E6%8A%80%E6%9C%AF/%E5%9C%A8VPN%E5%BC%80%E5%90%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ssh/"/>
     <id>http://akirahann.github.io/2023/03/26/%E6%8A%80%E6%9C%AF/%E5%9C%A8VPN%E5%BC%80%E5%90%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ssh/</id>
     <published>2023-03-26T14:50:42.037Z</published>
-    <updated>2023-03-26T15:58:18.416Z</updated>
+    <updated>2023-03-29T12:44:18.599Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h3&gt;&lt;p&gt;最近因为需要在手机上清理掉开屏广告开始使用Quantumult X，发现在mac上使用Quantumult X改自定义的策略比使用ClashX Pro必须使用订阅策略要舒服的多，所以开始在mac上也使用Quantumult X。&lt;/p&gt;
@@ -56,10 +56,11 @@
     <link href="http://akirahann.github.io/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/"/>
     <id>http://akirahann.github.io/2020/05/01/%E5%93%B2%E5%AD%A6/%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA/</id>
     <published>2020-04-30T17:41:02.550Z</published>
-    <updated>2023-03-26T15:30:41.426Z</updated>
+    <updated>2023-03-29T12:43:11.614Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;选择与欲望&quot;&gt;&lt;a href=&quot;#选择与欲望&quot; class=&quot;headerlink&quot; title=&quot;选择与欲望&quot;&gt;&lt;/a&gt;选择与欲望&lt;/h3&gt;&lt;ul&gt;
+    <summary type="html">&lt;p&gt;本文是《牛津通识读本：选择理论》的读书笔记。&lt;/p&gt;
+&lt;h3 id=&quot;选择与欲望&quot;&gt;&lt;a href=&quot;#选择与欲望&quot; class=&quot;headerlink&quot; title=&quot;选择与欲望&quot;&gt;&lt;/a&gt;选择与欲望&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;选择是生命活动的基本性质之一，即便是无意识的行为，也可以视为选择（自然选择而非理性选择）。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;自然选择的合理性来自于演化论，而理性选择的合理性，来自于解释者对于被解释行为的解释赋予。&lt;/p&gt;
@@ -74,6 +75,14 @@
     
     
     <category term="思考" scheme="http://akirahann.github.io/tags/%E6%80%9D%E8%80%83/"/>
+    
+    <category term="Decision Science" scheme="http://akirahann.github.io/tags/Decision-Science/"/>
+    
+    <category term="Choice" scheme="http://akirahann.github.io/tags/Choice/"/>
+    
+    <category term="读书笔记" scheme="http://akirahann.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="《牛津通识读本》" scheme="http://akirahann.github.io/tags/%E3%80%8A%E7%89%9B%E6%B4%A5%E9%80%9A%E8%AF%86%E8%AF%BB%E6%9C%AC%E3%80%8B/"/>
     
   </entry>
   
